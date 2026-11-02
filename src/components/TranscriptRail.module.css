@@ -1,0 +1,23 @@
+/*
+ * The one CSS module. Mantine has no built-in "breathing" effect, and this is the only motion in the app.
+ * It tells the clinician where the live transcript is being kept, and only while it is actually recording
+ * and the panel is closed. It stops on pause, on stop, and when the panel is open.
+ */
+.glow {
+  animation: breathe 2.8s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%, 100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  50% {
+    box-shadow: 0 0 0 8px color-mix(in srgb, var(--mantine-color-everiBlue-6) 20%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow {
+    animation: none;
+  }
+}
