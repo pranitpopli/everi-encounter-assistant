@@ -3,7 +3,7 @@
 An AI-assisted ambient clinical encounter assistant prototype tailored for Orthotics & Prosthetics (O&P) clinicians, designed to capture documentation, guide compliance in real time without breaking patient eye contact, and resolve claim-denial gaps before discharge.
 
 🔗 **Live Prototype:** [https://everi-x-pranit.vercel.app/](https://everi-x-pranit.vercel.app/)  
-📄 **Design & Process Documentation:** [docs/process-and-reflections.md](docs/process-and-reflections.md)
+📄 **Design & Process Documentation:** https://miro.com/app/board/uXjVJf8d_58=/?share_link_id=730430137539
 
 ---
 
